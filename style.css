@@ -1,44 +1,44 @@
 body {
-    font-family: Arial, sans-serif;
-    background: #f4f7fb;
-    margin: 0;
-    padding: 40px;
+  font-family: Arial, sans-serif;
+  background: #f4f7fb;
+  margin: 0;
+  padding: 40px;
 }
 
 .container {
-    text-align: center;
+  text-align: center;
 }
 
 h1 {
-    color: #1f3c88;
+  color: #1f3c88;
 }
 
 .student-card {
-    background: white;
-    max-width: 450px;
-    margin: 30px auto;
-    padding: 30px;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background: white;
+  max-width: 450px;
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .student-card h2 {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 button {
-    background: #1f3c88;
-    color: white;
-    border: none;
-    padding: 12px 20px;
-    border-radius: 6px;
-    cursor: pointer;
+  background: #1f3c88;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  cursor: pointer;
 }
 
 button:hover {
-    opacity: 0.85;
+  opacity: 0.85;
 }
 
 #studentDetails {
-    margin-top: 20px;
+  margin-top: 20px;
 }

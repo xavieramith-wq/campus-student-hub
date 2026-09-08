@@ -10,21 +10,21 @@ The main purpose of this project is to demonstrate how multiple developers can w
 
 ## Technologies Used
 
-* HTML5 – Structure of the web page
-* CSS3 – Styling and layout
-* JavaScript – Interactive functionality
-* Git – Version control
-* GitHub – Remote repository and collaboration
-* Visual Studio Code – Development environment
+- HTML5 – Structure of the web page
+- CSS3 – Styling and layout
+- JavaScript – Interactive functionality
+- Git – Version control
+- GitHub – Remote repository and collaboration
+- Visual Studio Code – Development environment
 
 ## Project Features
 
-* Student profile display
-* Student name, register number, and programme information
-* View Profile button
-* Dynamic student details using JavaScript
-* Contact information section
-* Responsive and simple user interface
+- Student profile display
+- Student name, register number, and programme information
+- View Profile button
+- Dynamic student details using JavaScript
+- Contact information section
+- Responsive and simple user interface
 
 ## Project Structure
 
@@ -41,25 +41,25 @@ campus-student-hub/
 
 ### Student 1 – Team Lead / Developer
 
-* Created and configured the GitHub repository
-* Created the initial web application
-* Managed the main branch
-* Integrated team members' changes
-* Reviewed and merged Pull Requests
-* Managed merge conflict resolution
+- Created and configured the GitHub repository
+- Created the initial web application
+- Managed the main branch
+- Integrated team members' changes
+- Reviewed and merged Pull Requests
+- Managed merge conflict resolution
 
 ### Student 2 – UI Developer
 
-* Improved the HTML structure
-* Enhanced the CSS design
-* Worked on the user interface
-* Used the `feature/ui` branch
+- Improved the HTML structure
+- Enhanced the CSS design
+- Worked on the user interface
+- Used the `feature/ui` branch
 
 ### Student 3 – JavaScript Developer
 
-* Added JavaScript functionality
-* Improved the View Profile feature
-* Worked on the `feature/javascript` branch
+- Added JavaScript functionality
+- Improved the View Profile feature
+- Worked on the `feature/javascript` branch
 
 ## Git Branches
 
@@ -77,12 +77,12 @@ main
 
 ### Branch Purpose
 
-* `main` – Stable and integrated version of the project
-* `feature/ui` – UI and CSS improvements
-* `feature/javascript` – JavaScript functionality
-* `feature/contact` – Contact information
-* `feature/student-name` – Student heading changes
-* `feature/app-title` – Application title changes
+- `main` – Stable and integrated version of the project
+- `feature/ui` – UI and CSS improvements
+- `feature/javascript` – JavaScript functionality
+- `feature/contact` – Contact information
+- `feature/student-name` – Student heading changes
+- `feature/app-title` – Application title changes
 
 ## Collaborative Git Workflow
 
@@ -144,12 +144,12 @@ After resolving the conflict, the corrected file was committed and pushed to Git
 
 To avoid overwriting another developer's work:
 
-* Each developer uses a separate feature branch.
-* Developers pull the latest changes before starting new work.
-* Changes are committed with meaningful messages.
-* Developers push only their own feature branches.
-* Pull Requests are reviewed before merging.
-* The `main` branch is used for the integrated project.
+- Each developer uses a separate feature branch.
+- Developers pull the latest changes before starting new work.
+- Changes are committed with meaningful messages.
+- Developers push only their own feature branches.
+- Pull Requests are reviewed before merging.
+- The `main` branch is used for the integrated project.
 
 ## Learning Outcomes
 
