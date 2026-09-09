@@ -1,39 +1,29 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Campus Student Hub</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
+  <body>
     <div class="container">
+      <h1>Campus Student Hub</h1>
 
-        <h1>Campus Student Hub</h1>
+      <div class="student-card">
+        <h2>Student Profile</h2>
 
-        <div class="student-card">
+        <p><strong>Name:</strong> Xavier Amith J</p>
+        <p><strong>Programme:</strong> MCA</p>
+        <p><strong>Register Number:</strong> 236MCA001</p>
 
-            <h2>Student Profile</h2>
+        <button onclick="showStudentDetails()">View Profile</button>
 
-            <p><strong>Name:</strong> Xavier Amith J</p>
-            <p><strong>Programme:</strong> MCA</p>
-            <p><strong>Register Number:</strong> 236MCA001</p>
-
-            <button onclick="showStudentDetails()">
-                View Profile
-            </button>
-
-            <div id="studentDetails"></div>
-
-        </div>
-
+        <div id="studentDetails"></div>
+      </div>
     </div>
 
     <script src="script.js"></script>
-
-</body>
+  </body>
 </html>
