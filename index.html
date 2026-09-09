@@ -1,35 +1,39 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Campus Student Hub</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
 
-  <body>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
     <div class="container">
-      <h1>Campus Student Hub</h1>
 
-      <div class="student-card">
-        <h2>Student Profile</h2>
+        <h1>Campus Student Hub</h1>
 
-        <p><strong>Name:</strong> Xavier Amith J</p>
-        <p><strong>Programme:</strong> MCA</p>
-        <p><strong>Register Number:</strong> 236MCA001</p>
+        <div class="student-card">
 
-        <button onclick="showStudentDetails()">View Profile</button>
+            <h2>Student Profile</h2>
 
-        <div id="studentDetails"></div>
+            <p><strong>Name:</strong> Xavier Amith J</p>
+            <p><strong>Programme:</strong> MCA</p>
+            <p><strong>Register Number:</strong> 236MCA001</p>
 
-        <div class="contact-info">
-          <h3>Contact Information</h3>
-          <p><strong>Email:</strong> student@example.com</p>
-          <p><strong>Phone:</strong> 9876543210</p>
+            <button id="detailsBtn" onclick="toggleDetails()">
+                Show Details
+            </button>
+
+            <div id="studentDetails"></div>
+
         </div>
-      </div>
+
     </div>
 
     <script src="script.js"></script>
-  </body>
+
+</body>
 </html>
